@@ -9,6 +9,8 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Sexo;
+use app\models\Pelicula;
 
 class SiteController extends Controller
 {
@@ -53,7 +55,6 @@ class SiteController extends Controller
             ],
         ];
     }
-
     /**
      * Displays homepage.
      *
@@ -61,7 +62,9 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        //invocar a la clase sexo
+        $listaPelicula = Pelicula::find()->all();
+        return $this->render('index',['listaPelicula'=>$listaPelicula]);
     }
 
     /**
