@@ -22,14 +22,15 @@ $this->title = 'Mis Películas';
 
                 <!-- Segunda fila con dos columnas -->
                 <div class="row">
-                    <div class="col-md-6 text-center mb-2">
-                        <!-- Primera imagen pequeña -->
-                        <img src="<?= Yii::$app->urlManager->baseUrl ?>/img/IMG2.jpg" width="235" height="200" alt="Imagen Grande">
-                    </div>
-                    <div class="col-md-6 text-center mb-2">
-                        <!-- Segunda imagen pequeña -->
-                        <img src="<?= Yii::$app->urlManager->baseUrl ?>/img/IMG3.jpg" width="235" height="200" alt="Imagen Grande">
-                    </div>
+                <div class="col-md-6 text-center mb-2">
+                <!-- Primera imagen pequeña con margen inferior -->
+                <img src="<?= Yii::$app->urlManager->baseUrl ?>/img/IMG2.jpg" width="200" height="200" alt="Imagen Grande" class="mb-1">
+                </div>
+                <div class="col-md-6 text-center mb-2">
+                <!-- Segunda imagen pequeña con margen inferior -->
+                <img src="<?= Yii::$app->urlManager->baseUrl ?>/img/IMG3.jpg" width="200" height="200" alt="Imagen Grande" class="mb-1">
+                </div>
+
                 </div>
             </div>
             </div>
