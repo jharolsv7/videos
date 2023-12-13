@@ -1,14 +1,19 @@
 body {
-    background-color: #cfe2f3; /* Color celeste atenuado */
+    background-color: #ffffff; /* Color blanco */
 }
 main > .container {
     padding: 70px 15px 20px;
 }
 
+.img3{
+    padding-left: 55px;
+}
+
 .footer {
-    background-color: #f5f5f5;
+    background-color: #333333f1;
     font-size: .9em;
     height: 60px;
+    color: white;
 }
 
 .footer > .container {
@@ -70,7 +75,7 @@ a.desc:after {
 /* align the logout "link" (button in form) of the navbar */
 .nav li > form > button.logout {
     padding-top: 7px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(85, 85, 85, 0.5);
 }
 
 @media(max-width:767px) {

@@ -49,6 +49,8 @@ AppAsset::register($this);
             ['label' => 'Genero', 'url' => ['/genero/index']],
             ['label' => 'Alquiler', 'url' => ['/alquiler/index']],
             ['label' => 'Película', 'url' => ['/pelicula/index']],
+            ['label' => 'Login', 'url' => ['/site/login']],
+            ['label' => 'Sign Up', 'url' => ['/site/error']],
         ],
     ]);
     NavBar::end();
